@@ -8,7 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'XdgBaseDir\\' => array($vendorDir . '/dnoegel/php-xdg-base-dir/src'),
     'TinyAuth\\' => array($vendorDir . '/dereuromark/cakephp-tinyauth/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
+    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Symfony\\Component\\Config\\' => array($vendorDir . '/symfony/config'),
     'Phinx\\' => array($vendorDir . '/robmorgan/phinx/src/Phinx'),
     'Migrations\\' => array($vendorDir . '/cakephp/migrations/src'),
     'DebugKit\\Test\\Fixture\\' => array($vendorDir . '/cakephp/debug_kit/tests/Fixture'),
@@ -18,6 +21,7 @@ return array(
     'Cake\\Test\\' => array($vendorDir . '/cakephp/cakephp/tests'),
     'Cake\\Composer\\' => array($vendorDir . '/cakephp/plugin-installer/src'),
     'Cake\\' => array($vendorDir . '/cakephp/cakephp/src'),
+    'CakeIntl\\' => array($vendorDir . '/hraq/cake-intl/src'),
     'Bake\\' => array($vendorDir . '/cakephp/bake/src'),
     'Aura\\Intl\\_Config\\' => array($vendorDir . '/aura/intl/config'),
     'App\\Test\\' => array($baseDir . '/tests'),

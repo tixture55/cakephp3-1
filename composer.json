@@ -11,6 +11,7 @@
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
         "cakephp/acl": "dev-master",
+        "hraq/cake-intl": "dev-master",
         "dereuromark/cakephp-tinyauth": "dev-master",
         "cakephp/migrations": "~1.0"
     },

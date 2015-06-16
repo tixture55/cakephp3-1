@@ -202,5 +202,6 @@ DispatcherFactory::add('ControllerFactory');
  */
 Type::build('datetime')->useLocaleParser();
 
-Plugin::load('Acl', ['bootstrap' => true]);
+//Plugin::load('Acl', ['bootstrap' => true]);
+Plugin::load('CakeIntl', ['bootstrap' => true]);
 

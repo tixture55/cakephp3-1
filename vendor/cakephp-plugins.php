@@ -3,9 +3,8 @@ $baseDir = dirname(dirname(__FILE__));
 return [
     'plugins' => [
         'Acl' => $baseDir . '/vendor/cakephp/acl/',
-        'AnnotationControlList' => $baseDir . '/plugins/AnnotationControlList/',
         'Bake' => $baseDir . '/vendor/cakephp/bake/',
-        'ContactManager' => $baseDir . '/plugins/ContactManager/',
+        'CakeIntl' => $baseDir . '/vendor/hraq/cake-intl/',
         'DebugKit' => $baseDir . '/vendor/cakephp/debug_kit/',
         'Migrations' => $baseDir . '/vendor/cakephp/migrations/',
         'TinyAuth' => $baseDir . '/vendor/dereuromark/cakephp-tinyauth/'
